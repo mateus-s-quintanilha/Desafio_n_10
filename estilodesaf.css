@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: des;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    background-color: #85E0AD;
+}
+header {
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3DD681, #1E6A43);
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    margin: 0px;
+    padding-top: 40px;
+}
+main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 30px;   /* Isso é o parágrafo, um espaço quando a linha começa */
+    line-height: 1.5em; /* Aumento do espaço (altura) entre linhas */
+}
+main a:active {
+    color: rgba(73, 73, 179, 0.767);
+}
+
+header > p#ptit { 
+    margin-top: 50px;
+    font-size: 23px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.438);
+}
+header > h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.438);
+
+}
+header > nav {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left; 
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    min-width: 350px;
+    max-width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding: 26px;
+    font-size: 21px;
+    border-radius: 0px 0px 10px 10px;
+}
+main img {
+    width: 100%;
+} 
+main img.pequeno {
+    max-width: 350px;
+    display: block;    /* margin auto só funciona para blocos, e uma imagem não é um bloco, com isso, transformei a imagem em um bloco pelo comando display: block; */
+    margin: auto; 
+}
+section#historia > h1 {
+    text-align: left;
+    font-family: des;
+    color: #1E6A43;
+    font-size: 1.9em;
+}
+section#versao1 > h1 {
+    text-align: left;
+    font-family: des;
+    color: #1E6A43;
+    background-image: linear-gradient(to right, #1e6a4331, white);
+}
+a.v1 {
+    color: #1E6A43;
+    font-weight: bolder;
+}
+section#surge > h1 {
+    text-align: left;
+    font-family: des;
+    color: #1E6A43;
+    background-image: linear-gradient(to right, #1e6a4331, white);
+}
+div.video {
+    background-color: #1E6A43;
+    padding: 20px;
+    margin: 0px -26px 0px -26px;
+    padding-bottom: 50%;             /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+    position: relative;              /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+}
+div.video iframe{
+    position: absolute;              /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+    top: 5%;                         /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+    left: 5%;                        /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+    width: 90%;                      /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+    height: 90%;                     /* Configurações que usei para tornar o video responsivo de acordo com o tamanho da tela, e também para centralizar ele na tela */
+}
+section#mais {
+    margin-top: 30px;
+}
+section#mais > h1 {
+    background-color: #3dc77b;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+    margin-bottom: 0px;
+}
+article#more{
+    background-color: #b7e9cc;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+footer > p {
+    margin-top: 55px;
+    color: white;
+    background-color: #1E6A43;
+    text-align: center;
+    padding: 15px;
+}
+section#mais ul {
+    list-style-position: inside;  /* Botei as bolinhas da lista para dentro do bloco */
+    columns: 2; 
+}  
